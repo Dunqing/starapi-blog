@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/collection-tags",
+      "handler": "collection-tag.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collection-tags/count",
+      "handler": "collection-tag.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/collection-tags/:id",
+      "handler": "collection-tag.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/collection-tags",
+      "handler": "collection-tag.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/collection-tags/:id",
+      "handler": "collection-tag.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/collection-tags/:id",
+      "handler": "collection-tag.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
