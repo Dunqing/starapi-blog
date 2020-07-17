@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"my-strapi-blog.categories"},{"v":2,"unique":true,"key":{"name":1},"name":"name_1","ns":"my-strapi-blog.categories","background":true}],"uuid":"d11d0d73c25b4acbbecab220a07fbf3e"}
